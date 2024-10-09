@@ -173,6 +173,7 @@ def main():
         with col1:
             radar_chart = get_radar_chart(input_data)
             st.plotly_chart(radar_chart)
+            st.write("Made by | <a href='https://www.facebook.com/programmer.ashraf/'>Ashraf Elsayed</a>",unsafe_allow_html=True)
 
         with col2:
             add_predictions(input_data)
